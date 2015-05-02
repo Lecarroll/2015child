@@ -1,0 +1,61 @@
+/*
+Theme Name: My Child Theme
+Version: 1.0
+Description: A child theme of Writr
+Template: writr-wpcom
+*/
+
+@import url("../writr-wpcom/style.css");
+
+body {
+  background-color: lightblue;
+  
+}
+body:after{
+  background-color:lightyellow;
+}
+
+.sidebar-area{
+background-color: lightblue;
+  
+}
+#sidebar-toggle {
+  background-color:lightgray;
+}
+
+.widget{
+  border-bottom:lightyellow;
+}
+
+.site-header:before{
+  background: black;
+}
+
+.main-navigation .dropdown > a:after {
+  background-color:lightgray;
+}
+
+
+.widget-area input[type="search"] {
+  border-color:lightyellow;
+}
+
+.site-branding {
+  border-bottom:lightyellow;
+}
+
+input[type="submit"] {
+  background-color: navy;
+}
+
+a {
+  color:navy;
+}
+
+.laurensheader{
+  font-family: cursive;
+}
+
+#sidebar-toggle{
+  background-color:lightyellow;
+}
