@@ -8,7 +8,7 @@ Template: writr-wpcom
 @import url("../writr-wpcom/style.css");
 
 body {
-  background-color: lightblue;
+  background-color: #ADD8E6;
   
 }
 body:after{
@@ -16,9 +16,10 @@ body:after{
 }
 
 .sidebar-area{
-background-color: lightblue;
+  background-color: #ADD8E6;
   
 }
+
 #sidebar-toggle {
   background-color:lightgray;
 }
@@ -28,7 +29,10 @@ background-color: lightblue;
 }
 
 .site-header:before{
-  background: black;
+  background-color: lightyellow;
+}
+.site-header {
+  background-color: lightyellow;
 }
 
 .main-navigation .dropdown > a:after {
@@ -58,4 +62,9 @@ a {
 
 #sidebar-toggle{
   background-color:lightyellow;
+}
+
+
+.main-navigation:after {
+  border-bottom:navy;
 }
